@@ -11,6 +11,12 @@
 		B0A1DF342C54E30900D80655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1DF332C54E30900D80655 /* ContentView.swift */; };
 		B0A1DF362C54E30900D80655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A1DF352C54E30900D80655 /* Assets.xcassets */; };
 		B0A1DF392C54E30900D80655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A1DF382C54E30900D80655 /* Preview Assets.xcassets */; };
+		D94423A62C54E842000C939D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94423A52C54E842000C939D /* Home.swift */; };
+		D94423B02C54E97E000C939D /* ProfessionalHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94423AF2C54E97E000C939D /* ProfessionalHelpView.swift */; };
+		D94423B22C54E987000C939D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94423B12C54E987000C939D /* HomeView.swift */; };
+		D94423B42C54E991000C939D /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94423B32C54E991000C939D /* JournalView.swift */; };
+		D94423BA2C54EAA8000C939D /* VijaiHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94423B92C54EAA8000C939D /* VijaiHomeView.swift */; };
+		D94423BC2C54EAB4000C939D /* QiYangHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94423BB2C54EAB4000C939D /* QiYangHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		B0A1DF332C54E30900D80655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0A1DF352C54E30900D80655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A1DF382C54E30900D80655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D94423A52C54E842000C939D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D94423AF2C54E97E000C939D /* ProfessionalHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalHelpView.swift; sourceTree = "<group>"; };
+		D94423B12C54E987000C939D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D94423B32C54E991000C939D /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		D94423B92C54EAA8000C939D /* VijaiHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VijaiHomeView.swift; sourceTree = "<group>"; };
+		D94423BB2C54EAB4000C939D /* QiYangHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiYangHomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				B0A1DF312C54E30900D80655 /* Challenge_2App.swift */,
 				B0A1DF332C54E30900D80655 /* ContentView.swift */,
+				D94423B92C54EAA8000C939D /* VijaiHomeView.swift */,
+				D94423BB2C54EAB4000C939D /* QiYangHomeView.swift */,
+				D94423AF2C54E97E000C939D /* ProfessionalHelpView.swift */,
+				D94423B12C54E987000C939D /* HomeView.swift */,
+				D94423B32C54E991000C939D /* JournalView.swift */,
+				D94423A52C54E842000C939D /* Home.swift */,
 				B0A1DF352C54E30900D80655 /* Assets.xcassets */,
 				B0A1DF372C54E30900D80655 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94423BA2C54EAA8000C939D /* VijaiHomeView.swift in Sources */,
+				D94423B42C54E991000C939D /* JournalView.swift in Sources */,
 				B0A1DF342C54E30900D80655 /* ContentView.swift in Sources */,
+				D94423A62C54E842000C939D /* Home.swift in Sources */,
+				D94423BC2C54EAB4000C939D /* QiYangHomeView.swift in Sources */,
+				D94423B02C54E97E000C939D /* ProfessionalHelpView.swift in Sources */,
+				D94423B22C54E987000C939D /* HomeView.swift in Sources */,
 				B0A1DF322C54E30900D80655 /* Challenge_2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
