@@ -9,7 +9,7 @@ import SwiftUI
 struct JournalView: View {
     @State private var activities: [Activity] = []
     @State private var newActivity: String = ""
-
+    @State private var Completion = false
     var body: some View {
         NavigationView {
             VStack {

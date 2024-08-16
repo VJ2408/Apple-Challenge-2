@@ -4,7 +4,7 @@ import SwiftUI
 struct HomeView: View {
     let daysInMonth = 31
     let streakDays: Set<Int> = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    @State private var progress = 0.3
+    @State private var progress = 0.53125
     var body: some View {
         VStack{
             ZStack {
